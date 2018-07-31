@@ -1,0 +1,3 @@
+# The Worlds Most OverEngineered Image Blog
+
+ This is my main lab project built on [react-golang-boilerplate](https://github.com/pstigenberg/react-golang-boilerplate). The purpose of this project is to provide my self with a lab project where I can try out new stuff. Therefore it's a total mess and I continuously try to make it more complicated. Hence the name...

@@ -1,0 +1,18 @@
+
+# OS junk files
+*.DS_Store
+
+# Other junk files
+.vscode/
+*.pyc
+*.log
+commands.md
+
+# Dev files
+logs/
+web/web_app/node_modules/
+web/web_app/dist/
+
+# files with tokens
+docker-compose.prod.yml
+docker-compose.yml
