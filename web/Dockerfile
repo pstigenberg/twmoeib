@@ -10,7 +10,7 @@ RUN chown -R www-data:www-data /var/lib/nginx
 # start by copying package.json and run npm install 
 # to prevent that this is done every time the project changes
 COPY web_app/package.json /tmp/package.json
-RUN cd /tmp && npm install
+RUN cd /tmp && npm --verbose install
 
 # Copy project
 COPY web_app/ /var/www/html/web/
