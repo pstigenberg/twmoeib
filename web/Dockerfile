@@ -7,6 +7,8 @@ RUN set -x ; \
 RUN apk add --update bash curl nano nginx nodejs
 RUN chown -R www-data:www-data /var/lib/nginx
 
+RUN ln -s /usr/bin/nodejs /usr/bin/node
+
 # start by copying package.json and run npm install 
 # to prevent that this is done every time the project changes
 COPY web_app/package.json /tmp/package.json
